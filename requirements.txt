@@ -5,3 +5,4 @@ pandas
 imblearn
 flask
 streamlit
+scapy==2.6.1
