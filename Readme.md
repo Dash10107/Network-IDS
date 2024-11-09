@@ -3,7 +3,7 @@ This project is an implementation of a Network Intrusion Detection System (NIDS)
 
 Project Structure
 
-'''
+```
 /app
 |-- /visualization        # Visualizations and data analysis scripts
 |-- /notebooks            # Jupyter notebooks for experimentation and analysis
@@ -12,7 +12,7 @@ Project Structure
 |-- /streamlit            # Streamlit app directory for real-time interaction
 |-- /flask                # Flask API directory for backend interaction
 |-- README.md             # Project documentation
-'''
+```
 
 Directories Overview
 /visualization: This directory contains scripts for visualizing the data, analyzing feature importances, and plotting results from the machine learning models.
@@ -54,16 +54,16 @@ matplotlib (for visualization)
 seaborn (for visualization)
 You can install all dependencies by running:
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 Running the Streamlit App
 Run the following command to start the app:
 
-'''
+```
 streamlit run app.py
-'''
+```
 
 This will launch the app in your browser, where you can interact with the model, upload packets, and get predictions.
 
@@ -71,9 +71,9 @@ Running the Flask API
 Navigate to the /flask directory.
 Run the following command to start the Flask server:
 
-'''
+```
 python main.py
-'''
+```
 
 This will start a local server at http://127.0.0.1:5000. You can send POST requests with packet data to get predictions from the model.
 
@@ -82,15 +82,15 @@ Simulating Packet Transfer
 Navigate to the /packets directory.
 Run the sender.py script to send packets:
 
-'''
+```
 python sender.py
-'''
+```
 
 In a separate terminal, run the receiver.py script to simulate receiving packets and getting model predictions:
 
-'''
+```
 python receiver.py
-'''
+```
 
 Model Loading and Evaluation
 You can evaluate the models stored in the /models directory by loading them and making predictions on new data. You can also visualize the feature importances and evaluation metrics in the /visualization directory.
