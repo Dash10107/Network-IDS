@@ -3,10 +3,10 @@ import pickle
 import pandas as pd
 
 # Load the saved model pipeline
-with open('model/network_ids_pipeline.pkl', 'rb') as file:
+with open('../model/network_ids_pipeline.pkl', 'rb') as file:
     model_pipeline = pickle.load(file)
 # Load the saved LabelEncoder
-with open('model/label_encoder.pkl', 'rb') as le_file:
+with open('../model/label_encoder.pkl', 'rb') as le_file:
     label_encoder = pickle.load(le_file)
 # Initialize Flask app
 app = Flask(__name__)
