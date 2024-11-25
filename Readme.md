@@ -107,9 +107,6 @@ Through a Streamlit app for real-time user interaction.
 Through a Flask API for backend integration or third-party access.
 Simulation: The packet transfer simulation helps showcase how the model works in a real-world context by mimicking network activity.
 
-Quick Overview 
+Model Performance Analyzation
 
-![alt text](output/streamlit.png)
-
-Model Performance 
 ![alt text](output/bar.png)
