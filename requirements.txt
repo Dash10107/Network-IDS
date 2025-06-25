@@ -1,8 +1,5 @@
-fastapi
-uvicorn
-scikit-learn=='1.5.2'
+scikit-learn
 pandas
 imblearn
 flask
 streamlit
-scapy==2.6.1
